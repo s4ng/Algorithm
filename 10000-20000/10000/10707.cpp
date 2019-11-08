@@ -15,3 +15,4 @@ int main() {
 		Y = b;
 	
 	cout << (X > Y ? Y : X) << '\n';
+}

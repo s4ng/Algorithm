@@ -1,7 +1,7 @@
 # BOJ
 백준 문제 풀이 모음집
 
-[백준](https://www.acmicpc.net/user/zalcls9512) [Codeforces](https://codeforces.com/profile/s4ng)
+[백준](https://www.acmicpc.net/user/zalcls9512)
 
 ## Using Languages
 - C++

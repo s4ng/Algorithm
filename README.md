@@ -3,7 +3,7 @@
 
 [백준](https://www.acmicpc.net/user/zalcls9512)
 
-## Using Languages
+## Languages
 - C++
 - Java
 - Python

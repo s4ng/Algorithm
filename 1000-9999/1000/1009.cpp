@@ -2,17 +2,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL); cout.tie(NULL);
+int main(){
 	int T;
 	cin >> T;
-	while (T--) {
-		int a, b, temp;
+	while(T--){
+		long a, b, res;
 		cin >> a >> b;
-		temp = a;
-		for (int i = 0; i < b - 1; i++) a = temp * a % 10;
-		if (a == 0) a = 10;
-		cout << a << '\n';
-	}
+		res = 1;
+		for(int i = 1; i <= b; ++i){
+			res = (res * a) % 10;
+		} 
+		if(res == 0) cout << 10 << '\n';
+		else cout << res << '\n';
+	} 
 }

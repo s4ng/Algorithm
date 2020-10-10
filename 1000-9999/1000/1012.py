@@ -1,3 +1,4 @@
+# 유기농 배추
 from collections import deque
 dx = (0, 1, 0, -1)
 dy = (-1, 0, 1, 0)
